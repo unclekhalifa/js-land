@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search GET /search/ai should return a response 1`] = `
+{
+  "response": "some-string",
+}
+`;
+
+exports[`Search GET /search/companies should return a company given a number 1`] = `
+[
+  {
+    "name": "some name",
+    "number": "12345678",
+  },
+]
+`;
+
+exports[`Search GET /search/companies/:companyNumber should return a company given a company number 1`] = `
+{
+  "name": "some-name",
+  "number": "12345678",
+}
+`;
+
+exports[`Search GET /search/officers should return an officer given a number 1`] = `
+[
+  {
+    "name": "some name",
+    "number": "12345678",
+  },
+]
+`;
+
+exports[`Search GET /search/officers/:officerNumber should return an officer given an officer number 1`] = `
+{
+  "name": "some-name",
+  "number": "12345678",
+}
+`;
